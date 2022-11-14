@@ -1,0 +1,38 @@
+/*Flexbox
+- one dimensional layout
+    -row
+    -coloumn
+Proprties to use that depends on flex declaration.
+   Syntax: 
+    display:flex;
+
+*/
+
+.flex-container{
+    background-color: lightblue;
+    height: 300px;
+    padding: 20px;
+
+    display: flex;
+    /*justify-content flex property*/
+    /* justify-content: flex-end; */
+    /* justify-content: space-between; */
+    /* justify-items: center; */
+    flex-direction: row-reverse;
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* align-items: stretch; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    align-items: center;
+    /* text-align: left; */
+    /* flex-direction: column; */
+
+    /*Justify-content for horizontal*/
+    /*align-items for vertical*/
+    justify-content: center;
+    /* align-items: center; */
+
+}
+

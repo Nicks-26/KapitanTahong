@@ -1,0 +1,58 @@
+* {
+  color: black;
+}
+
+form {
+  background-color: white;
+  margin: 50px;
+  margin-left: 50px;
+  margin-right: 80px;
+  padding-left: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+legend {
+  display: flex;
+  padding-left: 10px;
+}
+
+.form-check {
+  padding-right: 10px;
+}
+
+.loc {
+  margin-top: 50px;
+  padding: 10px;
+  line-height: 1px;
+}
+
+.loc2 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.dropdown {
+  display: flex;
+  margin: 50px;
+  margin-right: 50px;
+}
+
+.form-floating {
+  display: flex;
+  margin: 50px;
+  margin-right: 50px;
+}
+
+.rd {
+  padding-right: 10px;
+}
+
+.file {
+  margin: 50px;
+}
+
+.butts {
+  text-align: center;
+  margin: 50px;
+}

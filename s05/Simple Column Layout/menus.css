@@ -1,0 +1,44 @@
+.col1 {
+    display: inline-block;
+    position: absolute;
+    border: 5px solid blue;
+    padding: 30px;
+    height: 600px;
+    width: 200px;
+    top: 50px;
+    left: 80px;
+}
+
+.col2 {
+    display: inline-block;
+    position: absolute;
+    border: 5px solid blue;
+    padding: 30px;
+    height: 600px;
+    width: 200px;
+    top: 50px;
+    left: 500px;
+   
+}
+
+.col3 {
+    display: inline-block;
+    position: absolute;
+    border: 5px solid blue;
+    padding: 30px;
+    height: 600px;
+    width: 200px;
+    top: 50px;
+    left: 930px;
+}
+
+.col4 {
+    display: inline-block;
+    position: absolute;
+    border: 5px solid blue;
+    padding: 30px;
+    height: 600px;
+    width: 200px;
+    top: 50px;
+    left: 1350px;
+}

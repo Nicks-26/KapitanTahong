@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/service.css">
+    <title>Service Request Form</title>
+    <style>
+        body {
+               background-image: url("images/bck5.jpg");
+               background-repeat: no-repeat;
+               background-attachment: fixed;
+               background-size: cover;
+          } 
+         </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+              <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                          ABC Company IT Support Request Form
+                    </a>
+              </div>
+        </nav>
+  </header>
+
+    <form action="">
+        <div>
+            <div class="row mb-3">
+                <label for="fName" class="col-sm-2 col-form-label col-form-label-sm">First Name</label>
+                <div class="col-sm-7">
+                <input type="fName" class="form-control form-control-sm" id="fName">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label for="lName" class="col-sm-2 col-form-label col-form-label-sm">Last Name</label>
+                <div class="col-sm-7">
+                <input type="lName" class="form-control form-control-sm" id="lName">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label for="email" class="col-sm-2 col-form-label col-form-label-sm">Email Address</label>
+                <div class="col-sm-7">
+                <input type="email" class="form-control form-control-sm" id="email">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label for="contact" class="col-sm-2 col-form-label col-form-label-sm">Contact Number</label>
+                <div class="col-sm-7">
+                <input type="contact" class="form-control form-control-sm" id="contact" placeholder="Enter your complete phone number with extension or mobile number">
+                </div>
+            </div>
+        </div>
+
+        <fieldset class="row mb-3">
+            <legend class="col-form-label col-sm-2 pt-0"></legend>
+                <div class="col-sm-10 d-flex pt-0 pb-0">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                    <label class="form-check-label" for="gridRadios1">
+                    Onsite   
+                    </label>
+                  </div>
+
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2" checked>
+                    <label class="form-check-label" for="gridRadios2">
+                    Work From Home
+                    </label>
+                  </div>
+                </div>
+        </fieldset>
+
+        <div class="loc">
+            <p>
+                Location :
+            </p>
+
+            <p>
+                For onsite, please state your Workstation No., Department, Floor and Building.
+            </p>
+
+            <p>
+                For work from home, please complete your address and include a landmark nearest to your location.
+            </p>
+
+            <input type="text" size="64" class="loc2">
+        </div>
+
+        <div class="dropdown">
+        <label for="servReq"> Service Request Type :</label>
+            <select class="form-select form-select-sm" size="9" aria-label=".form-select-sm" multiple>
+                <option value="desklapSetup">Desktop/Laptop Setup</option>
+                <option value="desklapSupp">Desktop/Laptop Support</option>
+                <option value="desklapMain">Desktop/Laptop Maintenance</option>
+                <option value="softIns">Software Installation</option>
+                <option value="softSupp">Software Support</option>
+                <option value="compperiSetup">Computer Peripheral Setup</option>
+                <option value="compperiTroub">Computer Peripheral Troubleshooting</option>
+                <option value="compperiMain">Computer Peripheral Maintenance</option>
+            </select>
+        </div>
+
+        <div class="form-floating">
+            <p class="rd">
+                Request Description : 
+            </p>
+            <label for="floatingTextarea2"></label>
+            <textarea name="reqDescription" id="" cols="100" rows="8" placeholder="Explain your service request as details as possible"></textarea>
+        </div>
+
+        <div class="file">
+            Upload a picture/screenshot for reference.
+            <input class="btn btn-transparent" type="file" value="Submit">
+        </div>
+
+        <div class="butts">
+            <input class="btn btn-primary" type="submit" value="Submit" onclick="alert('Thank you for submitting your request')">
+            <input class="btn btn-primary" type="reset" value="Reset">
+        </div>
+              
+
+    </form>
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>
